@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         transport: {
             app1: {
                 // options: {
-                //     idleading: '.'
+                //     idleading: '.' //生成后加上
                 // },
                 files: [{
                     expand: true,
