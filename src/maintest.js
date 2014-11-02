@@ -1,7 +1,7 @@
 define(function(require, exports, module) {
-    var test1 = require('test1'),
-        test2 = require('test2'),
-        test3 = require('test3');
+    var test1 = require('./test1'),
+        test2 = require('./test2'),
+        test3 = require('./test3');
 
     function init() {
         $(function() {
